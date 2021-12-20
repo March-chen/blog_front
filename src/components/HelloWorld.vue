@@ -1,4 +1,5 @@
 <template>
+  <el-button>Default</el-button>
   <div class="hello">
     陈平
   </div>
