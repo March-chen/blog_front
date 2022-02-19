@@ -1,3 +1,6 @@
+const AutoImport = require('unplugin-auto-import/webpack')
+const Components = require('unplugin-vue-components/webpack')
+const { ElementPlusResolver } = require('unplugin-vue-components/resolvers')
 module.exports = {
     devServer: {
         disableHostCheck: true,
@@ -8,6 +11,14 @@ module.exports = {
         externals: {
             'vue': 'Vue',
             'element-plus': 'ElementPlus'
-        }
-    }
+        },
+        plugins: [
+            AutoImport({
+              resolvers: [ElementPlusResolver()],
+            }),
+            Components({
+              resolvers: [ElementPlusResolver()],
+            }),
+          ]
+    },
 };
