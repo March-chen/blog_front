@@ -10,6 +10,10 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    document.getElementById('app').style.display = 'block';
+    document.getElementById('loading').style.display = 'none';
   }
 }
 </script>
