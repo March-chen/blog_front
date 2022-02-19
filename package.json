@@ -22,6 +22,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "unplugin-auto-import": "^0.5.1",
     "unplugin-vue-components": "^0.17.2",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
     "webpack-dev-server": "^4.6.0"
   },
   "eslintConfig": {
