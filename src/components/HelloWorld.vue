@@ -1,5 +1,4 @@
 <template>
-  <el-button>Default</el-button>
   <div class="hello">
     cc
   </div>
