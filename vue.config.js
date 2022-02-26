@@ -9,6 +9,7 @@ module.exports = {
             'vue': 'Vue',
             'element-plus': 'ElementPlus',
             '@toast-ui/editor': 'toastui.Editor',
+            '@toast-ui/editor-plugin-code-syntax-highlight': 'toastui.Editor.plugin.codeSyntaxHighlight',
         }
     },
 };

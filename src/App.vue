@@ -14,6 +14,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Editor from '@toast-ui/editor'
+import codeSyntaxHighlight from '@toast-ui/editor-plugin-code-syntax-highlight'
 
 export default {
   name: 'App',
@@ -33,7 +34,8 @@ export default {
       el: document.querySelector('#editor'),
       height: '500px',
       initialEditType: 'markdown',
-      previewStyle: 'vertical'
+      previewStyle: 'vertical',
+      plugins: [codeSyntaxHighlight]
     });
     document.getElementById('app').style.display = 'block';
     document.getElementById('loading').style.display = 'none';
