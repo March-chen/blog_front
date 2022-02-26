@@ -7,7 +7,8 @@ module.exports = {
     configureWebpack: {
         externals: {
             'vue': 'Vue',
-            'element-plus': 'ElementPlus'
+            'element-plus': 'ElementPlus',
+            '@toast-ui/editor': 'toastui.Editor',
         }
     },
 };
