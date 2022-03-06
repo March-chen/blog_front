@@ -12,10 +12,4 @@ module.exports = {
             '@toast-ui/editor-plugin-code-syntax-highlight': 'toastui.Editor.plugin.codeSyntaxHighlight',
         }
     },
-    
-    resolve:{/*给路径配置别名*/
-        alias:{
-            '@':resolve('src'),
-        },
-    }  
 };
