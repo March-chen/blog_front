@@ -1,9 +1,9 @@
 <template>
-    <el-row>
-        <el-col :span="10"><div class="header">
-            <img src="@/assets/logo2.png" width="450" height="150" background="black"/>
-        </div></el-col>
-        <el-col :span="14"><div style="width:1">
+    <el-row justify="center">
+        <el-col :span="8">
+            <img src="@/assets/2.png" background="black"/>
+        </el-col>
+        <el-col :span="10"><div style="width:1">
             <el-menu
                 :default-active="activeIndex"
                 class="el-menu-demo"
@@ -38,9 +38,5 @@ export default {
 <style scoped>
 .el-menu.el-menu--horizontal {
     border-bottom: none;
-}
-.header{
-    width: 10;
-    height: 20;
 }
 </style>
