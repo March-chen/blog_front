@@ -18,7 +18,7 @@ footer{
   bottom: 0;
   height:20px;
   line-height:20px;
-  width: 100%;
+  width:fit-content + 20;
   left: 50%;
 }
 
